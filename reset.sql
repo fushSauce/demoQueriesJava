@@ -93,15 +93,6 @@ VALUES (1,'Plumbing','PGDB'),
 
 INSERT INTO TradesPerson (Rate, SId, PId,avgRating,yearsExp)
 VALUES  (28,1,3,5,10),
-        (30,2,4,2,5);
+        (30,2,4,3,5);
 
 
-
-SELECT *
-FROM Person;
-
-SELECT *
-FROM Job JOIN Specialty S on Job.SId = S.SId;
-
-SELECT *
-FROM Job;
